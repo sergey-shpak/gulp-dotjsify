@@ -21,7 +21,7 @@
   "bugs": {
     "url": "https://github.com/sergey-shpak/gulp-dotjsify/issues"
   },
-  "description": "Gulp plugin to preompile doT.js templates.",
+  "description": "Gulp plugin to preompile doT.js templates",
   "keywords": [
     "gulpplugin",
     "dot",
@@ -31,7 +31,7 @@
     "dot templates"
   ],
   "author": {
-    "name": "Sergii Shpak",
+    "name": "Sergey Shpak",
     "email": "sergey.shpak.web@gmail.com"
   },
   "license": "MIT",
