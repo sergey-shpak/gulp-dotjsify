@@ -1,0 +1,39 @@
+{
+  "name": "gulp-dotjsify",
+  "version": "0.0.1",
+  "main": "gulp-dotjsify.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "through2": "~0.6.3",
+    "gulp-util": "~3.0.1",
+    "dot": "~1.0.3"
+  },
+  "readme": "Read me content",
+  "readmeFilename": "README.md",
+  "homepage": "https://github.com/sergey-shpak/gulp-dotjsify",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sergey-shpak/gulp-dotjsify"
+  },
+  "bugs": {
+    "url": "https://github.com/sergey-shpak/gulp-dotjsify/issues"
+  },
+  "description": "Gulp plugin to preompile doT.js templates.",
+  "keywords": [
+    "gulpplugin",
+    "dot",
+    "dotjs",
+    "dotjs precompile",
+    "dotjs templates",
+    "dot templates"
+  ],
+  "author": {
+    "name": "Sergii Shpak",
+    "email": "sergey.shpak.web@gmail.com"
+  },
+  "license": "MIT",
+  "dist": {}
+}
