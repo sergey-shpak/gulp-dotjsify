@@ -3,13 +3,13 @@ var through = require('through2'),
     doT = require('dot'),
     wrapper = {
         amd: function (module) {
-            return 'define(["exports"], function (exports) { exports =  \n' + module.toString() + ' });';
+            return 'define(["exports"], function (exports) { exports = ' + module.toString() + ' });';
         },
         cjs: function (module) {
             return 'module.exports = ' + module.toString();
         },
         es6: function (module) {
-            return 'export default function () { return ' + module.toString() + ' };';
+            return 'export default ' + module.toString();
         }
     };
 
